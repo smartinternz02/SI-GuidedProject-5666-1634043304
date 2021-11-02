@@ -38,7 +38,7 @@ while(1):
 
         message = client.messages \
         .create(
-         body='hello praneeth',
+         body='Wild Animal is detected,stay alert',
          from_='+13203993780', #the free number of twilio
          to='+916302625267')
         print(message.sid)
